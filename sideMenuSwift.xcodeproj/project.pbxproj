@@ -25,9 +25,16 @@
 		2D7C482D21BE8A2E00EF7733 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C482C21BE8A2E00EF7733 /* ProfileVC.swift */; };
 		2D7C482F21BE987000EF7733 /* FaqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C482E21BE987000EF7733 /* FaqVC.swift */; };
 		2D7C483121BE987F00EF7733 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C483021BE987F00EF7733 /* AboutVC.swift */; };
-		476DCD7E00B134CA369EEEB1 /* Pods_sideMenuSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BDF782CA85B93E302F5DC8 /* Pods_sideMenuSwiftTests.framework */; };
-		67DB8EC575C443E5963A7E2C /* Pods_sideMenuSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5971E25BE75F5CDA24D14 /* Pods_sideMenuSwiftUITests.framework */; };
-		73D0D8E6F18FE7A0065B9CEF /* Pods_sideMenuSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D5C0D51E3E4750D2B3C60 /* Pods_sideMenuSwift.framework */; };
+		2DBE9CC521C76B9C00F2042A /* NetworkConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CC321C76B9C00F2042A /* NetworkConnectivity.swift */; };
+		2DBE9CC621C76B9C00F2042A /* WSCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CC421C76B9C00F2042A /* WSCalls.swift */; };
+		2DBE9CD121C76BBE00F2042A /* UIAlertView+GlobelFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CCA21C76BBD00F2042A /* UIAlertView+GlobelFunc.swift */; };
+		2DBE9CD221C76BBE00F2042A /* UIColor+GlobalUIColorFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CCB21C76BBD00F2042A /* UIColor+GlobalUIColorFunc.swift */; };
+		2DBE9CD321C76BBE00F2042A /* UIDate+GlobalDateFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CCC21C76BBD00F2042A /* UIDate+GlobalDateFunc.swift */; };
+		2DBE9CD421C76BBE00F2042A /* UIImage+GlobalImageFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CCD21C76BBD00F2042A /* UIImage+GlobalImageFunc.swift */; };
+		2DBE9CD521C76BBE00F2042A /* UITextField+TextFieldFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CCE21C76BBD00F2042A /* UITextField+TextFieldFunc.swift */; };
+		2DBE9CD621C76BBE00F2042A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CD021C76BBD00F2042A /* Constant.swift */; };
+		2DBE9CD921C76C3A00F2042A /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE9CD821C76C3A00F2042A /* RPicker.swift */; };
+		B98B3B5E043F233D62F1BE39 /* libPods-sideMenuSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF48901E7F8686287950AC /* libPods-sideMenuSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +56,6 @@
 
 /* Begin PBXFileReference section */
 		0251452A7E12AB12F1E559AC /* Pods-sideMenuSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift.release.xcconfig"; sourceTree = "<group>"; };
-		078D5C0D51E3E4750D2B3C60 /* Pods_sideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		102FABA7C25A45A46D1B149E /* Pods-sideMenuSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwiftUITests/Pods-sideMenuSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		173E3A551E349AD258A62AEC /* Pods-sideMenuSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwiftUITests/Pods-sideMenuSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D7C47E821BE30A600EF7733 /* sideMenuSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sideMenuSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7C47EB21BE30A600EF7733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D7C47ED21BE30A600EF7733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,11 +80,19 @@
 		2D7C482C21BE8A2E00EF7733 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		2D7C482E21BE987000EF7733 /* FaqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqVC.swift; sourceTree = "<group>"; };
 		2D7C483021BE987F00EF7733 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
-		885CDFEE8367B760B412A664 /* Pods-sideMenuSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwiftTests/Pods-sideMenuSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DBE9CC321C76B9C00F2042A /* NetworkConnectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnectivity.swift; sourceTree = "<group>"; };
+		2DBE9CC421C76B9C00F2042A /* WSCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSCalls.swift; sourceTree = "<group>"; };
+		2DBE9CCA21C76BBD00F2042A /* UIAlertView+GlobelFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertView+GlobelFunc.swift"; sourceTree = "<group>"; };
+		2DBE9CCB21C76BBD00F2042A /* UIColor+GlobalUIColorFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+GlobalUIColorFunc.swift"; sourceTree = "<group>"; };
+		2DBE9CCC21C76BBD00F2042A /* UIDate+GlobalDateFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDate+GlobalDateFunc.swift"; sourceTree = "<group>"; };
+		2DBE9CCD21C76BBD00F2042A /* UIImage+GlobalImageFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+GlobalImageFunc.swift"; sourceTree = "<group>"; };
+		2DBE9CCE21C76BBD00F2042A /* UITextField+TextFieldFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+TextFieldFunc.swift"; sourceTree = "<group>"; };
+		2DBE9CD021C76BBD00F2042A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2DBE9CD821C76C3A00F2042A /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
 		A2A5971E25BE75F5CDA24D14 /* Pods_sideMenuSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sideMenuSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A658370FA99D6BDEB0F8EB7C /* Pods-sideMenuSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwiftTests/Pods-sideMenuSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5BDF782CA85B93E302F5DC8 /* Pods_sideMenuSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sideMenuSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12F2824CDE8CD2431FB509D /* Pods-sideMenuSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sideMenuSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F4CF48901E7F8686287950AC /* libPods-sideMenuSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sideMenuSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D0D8E6F18FE7A0065B9CEF /* Pods_sideMenuSwift.framework in Frameworks */,
+				B98B3B5E043F233D62F1BE39 /* libPods-sideMenuSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				476DCD7E00B134CA369EEEB1 /* Pods_sideMenuSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67DB8EC575C443E5963A7E2C /* Pods_sideMenuSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +160,11 @@
 				2D7C47F221BE30AE00EF7733 /* Assets.xcassets */,
 				2D7C47F421BE30AE00EF7733 /* LaunchScreen.storyboard */,
 				2D7C47F721BE30AE00EF7733 /* Info.plist */,
+				2DBE9CD721C76C0200F2042A /* Libarary */,
+				2DBE9CCF21C76BBD00F2042A /* Constant */,
+				2DBE9CC921C76BBD00F2042A /* Extension */,
 				2D7C481F21BE43D600EF7733 /* LeftMenu */,
+				2DBE9CC221C76B9C00F2042A /* NetworkManager */,
 			);
 			path = sideMenuSwift;
 			sourceTree = "<group>";
@@ -183,12 +197,49 @@
 			path = LeftMenu;
 			sourceTree = "<group>";
 		};
+		2DBE9CC221C76B9C00F2042A /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE9CC321C76B9C00F2042A /* NetworkConnectivity.swift */,
+				2DBE9CC421C76B9C00F2042A /* WSCalls.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		2DBE9CC921C76BBD00F2042A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE9CCA21C76BBD00F2042A /* UIAlertView+GlobelFunc.swift */,
+				2DBE9CCB21C76BBD00F2042A /* UIColor+GlobalUIColorFunc.swift */,
+				2DBE9CCC21C76BBD00F2042A /* UIDate+GlobalDateFunc.swift */,
+				2DBE9CCD21C76BBD00F2042A /* UIImage+GlobalImageFunc.swift */,
+				2DBE9CCE21C76BBD00F2042A /* UITextField+TextFieldFunc.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2DBE9CCF21C76BBD00F2042A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE9CD021C76BBD00F2042A /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2DBE9CD721C76C0200F2042A /* Libarary */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE9CD821C76C3A00F2042A /* RPicker.swift */,
+			);
+			path = Libarary;
+			sourceTree = "<group>";
+		};
 		6A2D25D9215C708F87C491AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				078D5C0D51E3E4750D2B3C60 /* Pods_sideMenuSwift.framework */,
 				C5BDF782CA85B93E302F5DC8 /* Pods_sideMenuSwiftTests.framework */,
 				A2A5971E25BE75F5CDA24D14 /* Pods_sideMenuSwiftUITests.framework */,
+				F4CF48901E7F8686287950AC /* libPods-sideMenuSwift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,10 +249,6 @@
 			children = (
 				F12F2824CDE8CD2431FB509D /* Pods-sideMenuSwift.debug.xcconfig */,
 				0251452A7E12AB12F1E559AC /* Pods-sideMenuSwift.release.xcconfig */,
-				A658370FA99D6BDEB0F8EB7C /* Pods-sideMenuSwiftTests.debug.xcconfig */,
-				885CDFEE8367B760B412A664 /* Pods-sideMenuSwiftTests.release.xcconfig */,
-				173E3A551E349AD258A62AEC /* Pods-sideMenuSwiftUITests.debug.xcconfig */,
-				102FABA7C25A45A46D1B149E /* Pods-sideMenuSwiftUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -217,7 +264,7 @@
 				2D7C47E421BE30A600EF7733 /* Sources */,
 				2D7C47E521BE30A600EF7733 /* Frameworks */,
 				2D7C47E621BE30A600EF7733 /* Resources */,
-				B1C027FAEC05058191121C7C /* [CP] Embed Pods Frameworks */,
+				F45A113BC75AF040BD775EB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +279,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D7C481321BE30AE00EF7733 /* Build configuration list for PBXNativeTarget "sideMenuSwiftTests" */;
 			buildPhases = (
-				0D624CF1A3A745A1846BFE6A /* [CP] Check Pods Manifest.lock */,
 				2D7C47F821BE30AE00EF7733 /* Sources */,
 				2D7C47F921BE30AE00EF7733 /* Frameworks */,
 				2D7C47FA21BE30AE00EF7733 /* Resources */,
@@ -251,7 +297,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D7C481621BE30AE00EF7733 /* Build configuration list for PBXNativeTarget "sideMenuSwiftUITests" */;
 			buildPhases = (
-				0113E31A088308C64216A92F /* [CP] Check Pods Manifest.lock */,
 				2D7C480321BE30AE00EF7733 /* Sources */,
 				2D7C480421BE30AE00EF7733 /* Frameworks */,
 				2D7C480521BE30AE00EF7733 /* Resources */,
@@ -337,60 +382,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0113E31A088308C64216A92F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sideMenuSwiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0D624CF1A3A745A1846BFE6A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sideMenuSwiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1C027FAEC05058191121C7C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MMDrawerController/MMDrawerController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawerController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F08C72A3A87B074646C55B44 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +400,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F45A113BC75AF040BD775EB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UnderLineTextField/Source/UnderLineTextField/Supporting Files/Extera.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sideMenuSwift/Pods-sideMenuSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -417,16 +430,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7C482321BE49CC00EF7733 /* Utility.swift in Sources */,
+				2DBE9CC521C76B9C00F2042A /* NetworkConnectivity.swift in Sources */,
 				2D7C482121BE440500EF7733 /* HelperClass.swift in Sources */,
 				2D7C47EE21BE30A600EF7733 /* ViewController.swift in Sources */,
+				2DBE9CD421C76BBE00F2042A /* UIImage+GlobalImageFunc.swift in Sources */,
 				2D7C482521BE4A6300EF7733 /* Constant.swift in Sources */,
 				2D7C481C21BE41BB00EF7733 /* DashboardVC.swift in Sources */,
+				2DBE9CD321C76BBE00F2042A /* UIDate+GlobalDateFunc.swift in Sources */,
 				2D7C483121BE987F00EF7733 /* AboutVC.swift in Sources */,
+				2DBE9CD121C76BBE00F2042A /* UIAlertView+GlobelFunc.swift in Sources */,
+				2DBE9CD221C76BBE00F2042A /* UIColor+GlobalUIColorFunc.swift in Sources */,
 				2D7C482721BE580500EF7733 /* SpalceVC.swift in Sources */,
+				2DBE9CD521C76BBE00F2042A /* UITextField+TextFieldFunc.swift in Sources */,
+				2DBE9CC621C76B9C00F2042A /* WSCalls.swift in Sources */,
 				2D7C482B21BE790700EF7733 /* MenuCell.swift in Sources */,
 				2D7C482F21BE987000EF7733 /* FaqVC.swift in Sources */,
 				2D7C47EC21BE30A600EF7733 /* AppDelegate.swift in Sources */,
 				2D7C481A21BE41A900EF7733 /* LeftMenuVC.swift in Sources */,
+				2DBE9CD921C76C3A00F2042A /* RPicker.swift in Sources */,
+				2DBE9CD621C76BBE00F2042A /* Constant.swift in Sources */,
 				2D7C482D21BE8A2E00EF7733 /* ProfileVC.swift in Sources */,
 				2D7C481E21BE41D700EF7733 /* LoginVC.swift in Sources */,
 			);
@@ -635,7 +657,6 @@
 		};
 		2D7C481421BE30AE00EF7733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A658370FA99D6BDEB0F8EB7C /* Pods-sideMenuSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -656,7 +677,6 @@
 		};
 		2D7C481521BE30AE00EF7733 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 885CDFEE8367B760B412A664 /* Pods-sideMenuSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -677,7 +697,6 @@
 		};
 		2D7C481721BE30AE00EF7733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 173E3A551E349AD258A62AEC /* Pods-sideMenuSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -697,7 +716,6 @@
 		};
 		2D7C481821BE30AE00EF7733 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 102FABA7C25A45A46D1B149E /* Pods-sideMenuSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+module UnderLineTextField {
+  umbrella header "UnderLineTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

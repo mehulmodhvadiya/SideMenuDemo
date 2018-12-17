@@ -3,19 +3,15 @@
 
 target 'sideMenuSwift' do
 pod 'MMDrawerController'
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for sideMenuSwift
-
-  target 'sideMenuSwiftTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'sideMenuSwiftUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+pod 'Alamofire'
+pod 'AlamofireObjectMapper'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'SVProgressHUD'
+pod 'IQKeyboardManagerSwift'
+pod 'SDWebImage'
+pod 'UnderLineTextField'
+pod 'NVPullToRefresh'
 
 end

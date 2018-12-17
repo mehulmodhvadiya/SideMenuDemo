@@ -1,4 +1,4 @@
-framework module Pods_sideMenuSwift {
+module Pods_sideMenuSwift {
   umbrella header "Pods-sideMenuSwift-umbrella.h"
 
   export *
