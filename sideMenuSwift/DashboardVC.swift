@@ -12,6 +12,7 @@ import MMDrawerController
 class DashboardVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var image:UIImageView!
+    
     var picker = UIImagePickerController()
     var url: URL?
     override func viewDidLoad() {
